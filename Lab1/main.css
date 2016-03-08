@@ -1,0 +1,494 @@
+a {text-decoration: none;} 
+
+div{
+	display:block;
+}
+
+body {
+    font: .8em Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:0;
+    background: #fff;
+	color: #999;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #2b2b2b;
+}
+
+.topmenu_list  li {
+    padding: 15px;
+	margin: 0;
+}
+
+.topmenu {
+    min-width: 1000px;
+    margin: 0 0 33px;
+    padding-right: 60px;
+    white-space: nowrap;
+    background: #fff;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #eae9e8;
+    box-shadow: 0 0 50px 10px rgba(0,0,0,.05);
+    z-index: 10;
+}
+
+
+.topmenu_item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topmenu_item, .topmenu_item:hover, .topmenu_item:hover .topmenu_link, .topmenu_item:hover .topmenu_link:visited {
+    color: #2b2b2b;
+}
+
+.topmenu__link.link, .topmenu__link.link:visited {
+    color: #999;
+}
+
+.topmenu_list {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.main {
+    min-width: 1000px;
+    background: #fff;
+}
+
+.layout_main{
+    width: 1000px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px
+}
+
+.headline {
+    position: relative;
+    border-bottom: 1px solid rgba(32,16,0,.07);
+}
+
+.headline_theme {
+	min-height: 125px;
+    margin: -33px 0 35px;
+    padding: 49px 350px 30px 0;
+    border-bottom: 2px solid #fd5;
+	box-sizing: border-box;
+}
+
+.headline_theme .main_tabs {
+    margin-top: -19px;
+}
+
+.tabs {
+    cursor: pointer;
+}
+
+.tabs-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.main-tabs {
+    display: inline-block;
+    padding: 0 25px;
+    vertical-align: top;
+    outline: none;
+}
+
+.main_tabs1 {
+    cursor: default;
+}
+.main_tabs1:first-child {
+    padding-left: 0;
+}
+
+.main_tabs1 .main-tabs_text, .main_tabs1:hover .main-tabs_text {
+    color: #2b2b2b;
+}
+.main-tabs_text {
+    font-size: 32px;
+    line-height: 39px;
+    color: #669;
+}
+
+.main-tabs_desc {
+    font-size: 13px;
+    line-height: 24px;
+    display: block;
+    color: #999;
+}
+
+.banner_m {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 350px;
+    height: 123px;
+    margin-top: -62px;
+}
+
+.bestsellers_title{
+	margin-bottom: 13px;
+    font-size: 22px;
+    line-height: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.sell_txt{
+    font-size: 22px;
+	line-height: 1.4em;
+	font-weight: 400;
+}
+
+.snippet-list {
+    position: relative;
+    margin: 0 -15px -15px 0;
+	display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snippet-cell {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    vertical-align: top;
+	width: calc(100%/4 - 15px);
+	background: #fff;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+}
+
+.cell_head{
+	position: relative;
+}
+
+.cell_image {
+    position: relative;
+    display: block;
+    padding: 0 0 calc(100% - 60px);
+    border: 30px solid transparent;
+}
+
+.cell_image .image{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	font: 0/0 a;
+    border: 0;
+}
+
+.cell_header {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: -19px 0 13px;
+    padding: 0 20px;
+}
+
+.cell_subheader{
+	font: 11px 'Verdana',sans-serif;
+    margin: -9px 20px 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title_size_15 {
+	color: #669;
+    line-height: 1.4em;
+	font-size: 15px;
+	display: inline;
+	font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.link, .link:visited {
+    color: #999;
+    cursor: pointer;
+    -webkit-transition: color .25s ease-out,border-color .25s ease-out;
+    transition: color .25s ease-out,border-color .25s ease-out;
+}
+
+.link:hover, .link:visited:hover {
+    color: red!important;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.cell_content{
+	position: relative;
+    margin: 0 20px;
+    padding: 15px 0 55px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.cell_content_type_small {
+    padding-bottom: 10px;
+}
+
+.cell_price {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.price {
+    line-height: 17px;
+    display: inline-block;
+}
+
+.pager-more {
+    font-size: 15px;
+    line-height: 42px;
+    width: 100%;
+    display: block;
+    color: #666;
+	height: 42px;
+    margin: 2em auto 0;
+    text-align: center;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    padding: 0;
+    content: '';
+    border-radius: 2px;
+}
+
+.link_theme_black, .link_theme_black:visited {
+    color: #2b2b2b;
+}
+
+.flex_grid_container{
+	margin-left: -7px;
+    padding: 1px 1px 2px 7px;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+.sticker {
+    display: inline-block;
+    z-index: 1;
+}
+
+.sticker_discount {
+    margin-left: 0;
+	background: #2eb72e;
+	font: 11px 'Verdana',sans-serif;
+    padding: 2px 8px 3px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.metrika_pixel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: 10;
+}
+
+.price_unactual{
+    font: 11px/1.2em 'Verdana',sans-serif;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.cell_price .price {
+    margin-right: 10px;
+}
+
+.footer-market {
+    position: relative;
+    min-width: 1000px;
+    margin: 100px 0 0;
+    background: #f6f5f3;
+    z-index: 10;
+}
+
+.footer-market_shop {
+	font-size: 15px;
+    position: relative;
+    background: #e4eeff;
+}
+
+.footer-market_shop .footer-market_content {
+    display: none;
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: url('pic_28.svg')-45px 50% no-repeat;
+}
+
+.footer-market_content {
+    width: auto;
+    margin: 0 auto;
+    white-space: nowrap;
+    border: 130px solid transparent;
+    border-width: 0 130px;
+    max-width: 1440px;
+}
+
+.footer-market_shop .footer-market_content:first-child {
+    display: block;
+}
+
+.footer-market_toggle {
+    font-size: 13px;
+    position: absolute;
+    top: 19px;
+    left: 70%;
+    padding: 0 25px 0 0;
+    cursor: pointer;
+}
+
+.footer-market_info .footer-market_content {
+    position: relative;
+    padding-top: 33px;
+    padding-bottom: 36px;
+}
+
+.footer-market_column {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.footer-market_column_left {
+    width: 40%;
+}
+
+.footer-market_column_center {
+    width: 30%;
+}
+
+.footer-market_column_right {
+    width: 30%;
+}
+
+.footer-market_list {
+    line-height: 1.4em;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.footer-market_column_left .footer-market_list {
+    float: left;
+    width: 50%;
+}
+
+.footer-market_list .link, .footer-market_list .link:visited {
+    display: block;
+    padding: 3px 0 2px;
+    color: #666;
+}
+
+.footer-market_info .footer-market_content {
+    position: relative;
+    padding-top: 33px;
+    padding-bottom: 36px;
+}
+
+.footer-market_header {
+    font-size: 15px;
+    margin: 0 0 11px;
+}
+
+.footer-market_stat {
+    font-size: 11px;
+    line-height: 1.4em;
+    margin: 3px 0 0;
+    color: #999;
+}
+
+.footer-market_stat-line:first-child {
+    margin-right: .4em;
+}
+
+.footer-market_promo:link, .footer-market_promo:visited {
+    color: #999;
+}
+
+.footer-market_promo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    white-space: normal;
+    width: 30%;
+}
+
+.footer-market_promo-text {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: Verdana,sans-serif;
+    float: left;
+    margin: 33px 0 0 100px;
+}
+
+.footer-market_promo-image {
+    width: 82px;
+    height: 112px;
+    background: url('hand.png') 0 0 no-repeat;
+}
+
+.footer-market_common .footer-market_content {
+    padding-top: 13px;
+    padding-bottom: 12px;
+	width: auto;
+    max-width: 1440px;
+    border-width: 0 130px;
+}
+
+.footer-market_link:link, .footer-market_link:visited {
+    color: #8792a8;
+}
+
+.footer-market_link:first-child {
+    margin-left: 0;
+}
+
+.footer-market_link {
+    margin: 0 0 0 20px;
+}
+
+.footer-market .copyright {
+    white-space: nowrap;
+}
+
+.footer-market .copyright_link:link, .footer-market .copyright_link:visited {
+    color: #8792a8;
+}
+
+.footer-market_common {
+    border-top: 1px solid #e9e9e8;
+}
